@@ -1,0 +1,90 @@
+body {
+    width: 96%;
+	margin: auto;
+}
+/* section {
+    height: 800px;
+    font-size: 36px;
+    margin: 10px;
+    opacity: 0;
+
+} */
+
+#pic {
+    float: left;
+}
+
+#text { 
+    float: right;
+}
+
+#section1 {
+    background-color: rgb(211, 211, 211)k; 
+}
+
+#section2 {
+    background-color: rgb(199, 199, 199);   
+}
+
+#im2 {
+     width: 80%;
+     height: 80%;
+     margin: 90px 100px 100px 100px; 
+}
+
+#section3 {
+    background-color: rgb(173, 173, 173) ;
+    color: white;
+}
+
+#section4 {
+    background-color: rgb(148, 148, 148);
+    color: white;
+}
+
+blockquote {
+    width: 60%;
+    margin: auto;
+    margin: 0 auto;
+}
+
+img {
+    size: auto;
+    width: 450px;
+    height: 450px;
+    margin: 200px 0px 0px 20px;
+}
+#section1.img, #section2.img {
+    float: left;
+    
+}
+/* 
+@keyframes fadeIn {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  } */
+/* 
+section.fadeIn {
+    animation: fadeIn 600ms forwards;
+  } */
+
+  section {
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    opacity: 0; 
+  }
+  
+  section.fadeIn {
+    animation: fadeIn .6s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

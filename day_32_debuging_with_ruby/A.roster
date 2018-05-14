@@ -1,0 +1,5 @@
+[0GSyntaxError: unexpected [, expecting ']'
+          [A:wq
+            ^
+(eval):3: Invalid char `\x1B' in expression
+SyntaxError: unexpected tCONSTANT, expecting ']'

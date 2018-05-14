@@ -1,0 +1,10 @@
+source "https://rubygems.org" do
+
+gem "sinatra"
+gem "sinatra-contrib"
+
+# Gem below is for sending confirmation emails.
+gem 'sendgrid-ruby' 
+
+
+end

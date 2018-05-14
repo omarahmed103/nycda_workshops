@@ -1,0 +1,27 @@
+#container {
+	height: 400px;
+	text-align: center;
+}
+
+.box {
+	height: 300px;
+	width: 25%;
+	border: 1px solid black;
+	display: flex;
+	padding: 10px;
+	margin: 0px 20px;
+	font-size: 110%;
+}
+
+.box:last-child {
+	background-color: gray;
+}
+
+.box:nth-child(2) {
+    background: red;
+}
+
+/*#post {
+	position: absolute;
+	top: 300px; left: 400px;
+}*/
